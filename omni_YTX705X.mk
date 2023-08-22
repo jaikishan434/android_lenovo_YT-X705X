@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from YT-X705X device
-$(call inherit-product, device/lenovo/YT-X705X/device.mk)
+# Inherit from YTX705X device
+$(call inherit-product, device/lenovo/YTX705X/device.mk)
 
-PRODUCT_DEVICE := YT-X705X
-PRODUCT_NAME := omni_YT-X705X
+PRODUCT_DEVICE := YTX705X
+PRODUCT_NAME := omni_YTX705X
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo YT-X705X
+PRODUCT_MODEL := Lenovo YTX705X
 PRODUCT_MANUFACTURER := lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo-rev2
